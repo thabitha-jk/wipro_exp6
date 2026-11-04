@@ -1,0 +1,58 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Examination Result</title>
+</head>
+<body>
+
+<h2>Student Examination Result Processing System</h2>
+
+<form action="result" method="post">
+
+    Register Number:
+    <input type="text" name="regno" required>
+    <br><br>
+
+    Student Name:
+    <input type="text" name="name" required>
+    <br><br>
+
+    Department:
+    <input type="text" name="department" required>
+    <br><br>
+
+    <h3>Marks in 5 Subjects</h3>
+
+    Subject 1:
+    <input type="number" name="marks" min="0" max="100" required>
+    <br><br>
+
+    Subject 2:
+    <input type="number" name="marks" min="0" max="100" required>
+    <br><br>
+
+    Subject 3:
+    <input type="number" name="marks" min="0" max="100" required>
+    <br><br>
+
+    Subject 4:
+    <input type="number" name="marks" min="0" max="100" required>
+    <br><br>
+
+    Subject 5:
+    <input type="number" name="marks" min="0" max="100" required>
+    <br><br>
+
+    Attendance Percentage:
+    <input type="number" name="attendance"
+           min="0" max="100" step="0.01" required>
+    <br><br>
+
+    <input type="submit" value="Calculate Result">
+
+</form>
+
+</body>
+</html>
+```
